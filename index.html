@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                        <!-- CSS links -->
+    <link rel="stylesheet" href="style.css">
+    <link
+    href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css"
+    rel="stylesheet"/>
+    <title>Site Nutrição</title>
+</head>
+<body>
+    <!-- NavBar-->
+    <nav class="nav-bar">
+        <h1 class="logo ">Nutri+</h1>
+        <ul class="nav-links">
+        <li class="active"><a href="#"></a>Início</li>
+        <li><a href="#"></a>Explore</li>
+        <li><a href="#"></a>Sobre</li>
+        <li class="ctn" ><a href="#"></a>Contatos</li>
+    </ul>
+    <img src="./image/menu-line.png" alt="menu-line" class="menu-btn">
+    </nav>
+
+    <header>
+        <div class="header-content">
+            <h2>Linha de base de texto</h2>
+            <div class="line"></div>
+            <h1>Texto base principal</h1>
+            <div class="second-line"></div>
+            <a href="#" class="ctn">Veja mais</a>
+        </div>
+    </header>
+
+    <!-- == Events == -->
+    <section class="events">
+        <div class="title">
+            <h1>Segundo texto principal</h1>
+            <div class="line"></div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <img src="./image/subimg.jpg" alt="subimg">
+                <h4>Mini texto</h4>
+                <p> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Beatae inventore odio voluptas nostrum nisi perspiciatis libero excepturi alias cumque quo enim autem amet recusandae nemo, esse officia aspernatur! Vel, dolorum.</p>
+                <a href="#" class="ctn">Veja mais</a>
+            </div>
+            <div class="col">
+                <img src="./image/subimg_2.jpg" alt="subimg">
+                <h4>Mini texto 2</h4>
+                <p> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Beatae inventore odio voluptas nostrum nisi perspiciatis libero excepturi alias cumque quo enim autem amet recusandae nemo, esse officia aspernatur! Vel, dolorum.</p>
+                <a href="#" class="ctn">Veja mais</a>
+            </div>
+        </div>
+    </section>
+    <section class="explore">
+     <div class="explore-content">
+        <h1>Terceiro Texto Principal</h1>
+        <div class="line"></div>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Cupiditate at aperiam voluptatum! Laborum quibusdam praesentium magnam obcaecati sit consequuntur beatae aperiam aliquam dignissimos debitis, sunt delectus adipisci qui laudantium et!</p>
+        <a href="#" class="ctn">Veja mais</a>
+     </div>
+    </section>
+
+    <section class="sobre">
+        <div class="row">
+            <div class="col content-col">
+                <h1>Quarto texto principal</h1>
+                <div class="line"></div>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur accusamus cupiditate ipsum quisquam nisi. Voluptate beatae labore, eaque ipsam soluta neque consectetur cupiditate, cumque aut ducimus perspiciatis, eius quam hic.</p>
+                <a href="#" class="ctn">Veja mais</a>
+            </div>
+            <div class="col image-col">
+                <div class="image-gallery">
+                    <img src="./image/mini_img.jpg" alt="">
+                    <img src="./image/mini_img_2.jpg" alt="">
+                    <img src="./image/mini_img_3.jpg" alt="">
+                    <img src="./image/mini_img_4.jpg" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="footer">
+        <p> <i class="ri-map-pin-line"></i> Rua fictícia, 1234, Alto de Athenas, UKL | <i class="ri-phone-line"></i> Telefone: (99) 9999-9999 | <i class="ri-mail-line"></i> Email: Contatoextra@gmail.com</p>
+        <p>Copyright &copy; 2024 Empresa,Nome</p>
+        <a href="#"><i class="ri-instagram-line" id="insta"></i></a>
+        <a href="#"><i class="ri-whatsapp-line" id="whats"></i></a>
+        <a href="#"><i class="ri-facebook-circle-fill" id="face"></i></a>
+    </section>
+
+    <script>
+        const menuBtn = document.querySelector('.menu-btn')
+        const navlinks = document.querySelector('.nav-links')
+
+        menuBtn.addEventListener('click', () => {
+            navlinks.classList.toggle('mobile-menu')
+        })
+    </script>
+</body>
+</html>
